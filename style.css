@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.ILYINSKY-HOSPITAL-1-hex { color: #0540F2; }
+.ILYINSKY-HOSPITAL-2-hex { color: #0C59F2; }
+.ILYINSKY-HOSPITAL-3-hex { color: #0460D9; }
+.ILYINSKY-HOSPITAL-4-hex { color: #033E8C; }
+.ILYINSKY-HOSPITAL-5-hex { color: #61BF36; }
+
+/* Color Theme Swatches in RGBA */
+.ILYINSKY-HOSPITAL-1-rgba { color: rgba(4, 64, 242, 1); }
+.ILYINSKY-HOSPITAL-2-rgba { color: rgba(12, 88, 242, 1); }
+.ILYINSKY-HOSPITAL-3-rgba { color: rgba(4, 96, 216, 1); }
+.ILYINSKY-HOSPITAL-4-rgba { color: rgba(2, 62, 140, 1); }
+.ILYINSKY-HOSPITAL-5-rgba { color: rgba(97, 191, 53, 1); }
+
+/* Color Theme Swatches in HSLA */
+.ILYINSKY-HOSPITAL-1-hsla { color: hsla(225, 96, 48, 1); }
+.ILYINSKY-HOSPITAL-2-hsla { color: hsla(219, 90, 49, 1); }
+.ILYINSKY-HOSPITAL-3-hsla { color: hsla(213, 96, 43, 1); }
+.ILYINSKY-HOSPITAL-4-hsla { color: hsla(213, 96, 28, 1); }
+.ILYINSKY-HOSPITAL-5-hsla { color: hsla(101, 56, 48, 1); }
