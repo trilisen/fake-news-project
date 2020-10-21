@@ -6,11 +6,11 @@ declare(strict_types=1);
 // authors.
 
 $authors = [
-    ['fullName' => 'William Shakespeare', 'id' => 1],
-    ['fullName' => 'Emily Dickinson', 'id' => 2],
-    ['fullName' => 'Isaac Asimov', 'id' => 3],
-    ['fullName' => 'John Steinbeck', 'id' => 4],
-    ['fullName' => 'Alexandre Dumas', 'id' => 5]
+    ['fullName' => 'William Shakespeare', 'id' => 0],
+    ['fullName' => 'Emily Dickinson', 'id' => 1],
+    ['fullName' => 'Isaac Asimov', 'id' => 2],
+    ['fullName' => 'John Steinbeck', 'id' => 3],
+    ['fullName' => 'Alexandre Dumas', 'id' => 4]
 ];
 
 $items = [];
