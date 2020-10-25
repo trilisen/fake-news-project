@@ -18,3 +18,18 @@
 .ILYINSKY-HOSPITAL-3-hsla { color: hsla(213, 96, 43, 1); }
 .ILYINSKY-HOSPITAL-4-hsla { color: hsla(213, 96, 28, 1); }
 .ILYINSKY-HOSPITAL-5-hsla { color: hsla(101, 56, 48, 1); }
+
+.header-title{
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+}
+
+section {
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 300; */
+    
+}
+
+section h1 {
+    font-weight: 700;
+}
