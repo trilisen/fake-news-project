@@ -23,7 +23,7 @@
         <h1 class="header-title text-4xl">The Rabbits Carrot</h1>
     </header>
 
-    <main>
+    <main class="box-border container w-1/2 mx-auto">
         <!-- Put a function that creates the articles -->
         <article class="m-10 shadow-lg rounded">
             <section class="flex items-center">
@@ -33,7 +33,7 @@
                     <img src="/Thumb_up_icon_2.svg" alt="thumb-up" class="w-10 h-10">
                 </div>
             </section>
-            <img src="/keith-helfrich-vs-8TRV67mA-unsplash.jpg" alt="" class="w-full object-cover">
+            <img src="/keith-helfrich-vs-8TRV67mA-unsplash.jpg" alt="" class="object-cover">
             <p class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ab recusandae, quis cum impedit pariatur neque magni officia odio vero voluptatum animi ratione rem assumenda voluptates cumque ex cupiditate itaque!</p>
             <div class="flex mx-5">
                 <p class="flex-1">Author</p>
