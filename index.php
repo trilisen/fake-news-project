@@ -3,6 +3,7 @@
 // This is the file where you can keep your HTML markup. We should always try to
 // keep us much logic out of the HTML as possible. Put the PHP logic in the top
 // of the files containing HTML or even better; in another PHP file altogether.
+require __DIR__ . '/functions.php';
 
 ?>
 <!DOCTYPE html>
@@ -22,25 +23,37 @@
         <h1 class="header-title">The Rabbits Carrot</h1>
     </header>
 
-    <main>
-        <!-- Put a function that creates the articles -->
-        <article>
-            <section>
-                <h1>Title</h1>
-                <div class="likes">
-                    <p>15</p>
-                    <img src="/Thumb_up_icon_2.svg" alt="thumb-up">
-                </div>
-            </section>
-            <img src="/keith-helfrich-vs-8TRV67mA-unsplash.jpg" alt="" class="main-picture">
-            <p class="main-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ab recusandae, quis cum impedit pariatur neque magni officia odio vero voluptatum animi ratione rem assumenda voluptates cumque ex cupiditate itaque!</p>
-            <div class="main-footer">
-                <p>Author</p>
-                <p>Published: 2020-10-25</p>
-            </div>
-        </article>
 
-    </main>
+    <?php foreach ($posts as $post) :
+
+        $title = $post['title'];
+        $content = $post['content'];
+        $author = 'fix this';
+        $date = date('Y-m-d', $post['publishedDate']);
+        $likes = $post['likes'];
+        $img = $post['picture'];
+
+    ?>
+        <main>
+            <!-- Put a function that creates the articles -->
+            <article>
+                <section>
+                    <h1><?= $title ?></h1>
+                    <div class="likes">
+                        <p><?= $likes ?></p>
+                        <img src="/Thumb_up_icon_2.svg" alt="thumb-up">
+                    </div>
+                </section>
+                <img src="<?= $img ?>" alt="" class="main-picture">
+                <p class="main-content"> <?= $content ?></p>
+                <div class="main-footer">
+                    <p><?= $author ?></p>
+                    <p>Published: <?= $date ?></p>
+                </div>
+            </article>
+
+        </main>
+    <?php endforeach; ?>
 </body>
 
 </html>
