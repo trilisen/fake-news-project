@@ -4,6 +4,7 @@
 // keep us much logic out of the HTML as possible. Put the PHP logic in the top
 // of the files containing HTML or even better; in another PHP file altogether.
 require __DIR__ . '/functions.php';
+require __DIR__ . '/data.php';
 
 ?>
 <!DOCTYPE html>
@@ -24,18 +25,17 @@ require __DIR__ . '/functions.php';
     </header>
 
 
-    <?php foreach ($posts as $post) :
+    <?php foreach (sortArticles($posts) as $post) :
 
         $title = $post['title'];
         $content = $post['content'];
-        $author = 'fix this';
-        $date = date('Y-m-d', $post['publishedDate']);
+        $author = getAuthorById($post['author_id'], $authors);
+        $date = date('Y-m-d', $post['published_date']);
         $likes = $post['likes'];
         $img = $post['picture'];
 
     ?>
         <main>
-            <!-- Put a function that creates the articles -->
             <article>
                 <section>
                     <h1><?= $title ?></h1>
