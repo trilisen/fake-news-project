@@ -8,9 +8,9 @@ Hi, this is Jon. I'm creating a fake news website called the Rabbits Carrot as p
 `php -S localhost:8000`
 - Type localhost:8000 in to your browser.
 
-Testare: 
-Felix Östergren
-Jonathan Larsson
+# Testers: 
+- Felix Östergren
+- Jonathan Larsson
 
 ## Code Review
 ##### (Evelyn) Review
