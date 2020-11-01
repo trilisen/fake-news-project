@@ -23,7 +23,7 @@ function generateRandomDate(): int
 function sortArticles(array $posts): array
 {
     usort($posts, function ($a, $b) {
-        return $a['published_date'] <=> $b['published_date'];
+        return $b['published_date'] <=> $a['published_date'];
     });
     return $posts;
 };
