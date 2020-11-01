@@ -1,6 +1,12 @@
 # Fake News Project
 
-Hi, this is Jon. I'm creating a fake news website called the Rabbits Carrot.
+Hi, this is Jon. I'm creating a fake news website called the Rabbits Carrot as part of my education at YRGO.
+
+# Installation Guide
+- Clone the respository in your preffered way, be that through the terminal or GitHub Desktop
+- Use the terminal and navigate to:
+`php -S localhost:8000`
+- Type localhost:8000 in to your browser.
 
 Testare: 
 Felix Östergren
