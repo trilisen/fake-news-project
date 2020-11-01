@@ -4,6 +4,7 @@ Hi, this is Jon. I'm creating a fake news website called the Rabbits Carrot.
 
 Testare: 
 Felix Östergren
+Jonathan Larsson
 
 ## Code Review
 ##### (Evelyn) Review
