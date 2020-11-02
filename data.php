@@ -23,7 +23,7 @@ $posts = [
         'author_id' => 0,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -32,7 +32,7 @@ $posts = [
         'author_id' => 1,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -41,7 +41,7 @@ $posts = [
         'author_id' => 2,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -50,7 +50,7 @@ $posts = [
         'author_id' => 3,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -59,7 +59,7 @@ $posts = [
         'author_id' => 4,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -68,7 +68,7 @@ $posts = [
         'author_id' => 0,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -77,7 +77,7 @@ $posts = [
         'author_id' => 1,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -86,7 +86,7 @@ $posts = [
         'author_id' => 2,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -95,7 +95,7 @@ $posts = [
         'author_id' => 3,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ],
 
     [
@@ -104,6 +104,6 @@ $posts = [
         'author_id' => 4,
         'published_date' => generateRandomDate(),
         'likes' => rand(0, 100),
-        'picture' => '/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
+        'picture' => '/img/keith-helfrich-vs-8TRV67mA-unsplash.jpg'
     ]
 ];

@@ -23,7 +23,7 @@ require __DIR__ . '/header.php'
             <h1><?= $title ?></h1>
             <div class="likes">
                 <p><?= $likes ?></p>
-                <img src="/Thumb_up_icon_2.svg" alt="thumb-up">
+                <img src="/img/Thumb_up_icon_2.svg" alt="thumb-up">
             </div>
         </section>
         <img src="<?= $img ?>" alt="" class="main-picture">
